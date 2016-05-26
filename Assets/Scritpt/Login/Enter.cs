@@ -15,13 +15,12 @@ public class Enter : MonoBehaviour {
 	
 	void Awake()
 	{
-		GameObject button = GameObject.Find("UI Root/Enter");
-		UIEventListener.Get(button).onClick = ButtonClick;
+
 		Debug.Log ("Enter::Awake()");
 	}
 	
-	void ButtonClick(GameObject button)
+	void OnClick()
 	{
-		Debug.Log("NGUI button name :"+button.name);
+		Debug.Log("NGUI button name :");
 	}
 }

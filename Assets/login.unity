@@ -1258,7 +1258,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.55865932
+  aspectRatio: 2.55153203
   mType: 2
   mFillDirection: 4
   mFillAmount: 1
@@ -4333,7 +4333,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.55865932
+  aspectRatio: 2.55153203
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -5679,6 +5679,7 @@ GameObject:
   - 114: {fileID: 1297143815}
   - 65: {fileID: 1297143814}
   - 114: {fileID: 1297143813}
+  - 114: {fileID: 1297143817}
   m_Layer: 8
   m_Name: Control - Colored Button
   m_TagString: Untagged
@@ -5807,6 +5808,17 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 62adb30369acbf943a67cee0f69267a3, type: 2}
   mSpriteName: Button
   mFillCenter: 1
+--- !u!114 &1297143817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1297143811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3214fa5f6c821d340b79d6a297de3d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1303710115
 GameObject:
   m_ObjectHideFlags: 0
